@@ -58,6 +58,11 @@ end
 
 def runner
 welcome 
-
+initial_round
+hit?
+get_user_input
+if "s"
+  
+end
 end
     
