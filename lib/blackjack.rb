@@ -64,9 +64,9 @@ hit?(ttl)
   if ttl <= 21
   ttl = hit?(ttl)
 
-else 
+end 
 return end_game(ttl)
-  end
+  
 end
 
 # def runner
