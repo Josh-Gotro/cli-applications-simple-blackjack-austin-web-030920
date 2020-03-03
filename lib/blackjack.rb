@@ -64,6 +64,6 @@ hit?(ttl)
   ttl = hit?(ttl)
   display_card_total
   end
-end_game
+end_game(ttl)
 end
 
