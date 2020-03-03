@@ -60,7 +60,8 @@ def runner
 welcome 
 ttl = initial_round
 hit?(ttl)
-if 
+until ttl > 21
+
 
   
 
