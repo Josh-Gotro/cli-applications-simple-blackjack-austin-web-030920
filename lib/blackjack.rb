@@ -57,7 +57,7 @@ end
 #####################################################
 
 def runner
-puts welcome 
+ welcome 
 # ttl = initial_round
 # hit?(ttl)
   # if ttl <= 21
