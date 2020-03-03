@@ -57,15 +57,15 @@ end
 #####################################################
 
 def runner
-welcome 
-ttl = initial_round
-hit?(ttl)
-  display_card_total(ttl)
-  if ttl <= 21
-  ttl = hit?(ttl)
-  display_card_total(ttl)
-else 
-return end_game(ttl)
-  end
+# welcome 
+# ttl = initial_round
+# hit?(ttl)
+#   display_card_total(ttl)
+#   if ttl <= 21
+#   ttl = hit?(ttl)
+#   display_card_total(ttl)
+# else 
+# return end_game(ttl)
+#   end
 end
 
