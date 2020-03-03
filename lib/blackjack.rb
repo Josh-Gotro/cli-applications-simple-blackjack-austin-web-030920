@@ -57,12 +57,13 @@ end
 #####################################################
 
 def runner
-welcome 
-ttl = initial_round
-  if ttl <= 21
-  ttl = hit?(ttl)
-end 
- end_game(ttl)
+  welcome 
+  ttl = initial_round
+    if ttl <= 21
+    ttl = hit?(ttl)
+    
+  end 
+  end_game(ttl)
 end
 
 # def runner
