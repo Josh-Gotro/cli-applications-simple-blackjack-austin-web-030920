@@ -62,7 +62,7 @@ ttl = initial_round
 hit?(ttl)
 get_user_input
 
-  binding.pry
+  
 
 # end
 end
