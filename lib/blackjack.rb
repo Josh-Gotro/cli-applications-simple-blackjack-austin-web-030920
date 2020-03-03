@@ -56,13 +56,22 @@ end
 # get every test to pass before coding runner below #
 #####################################################
 
-def runner
+def runner(ttl)
+  t += ttl
 welcome 
 initial_round
-hit?
+hit?(t)
 get_user_input
 if "s"
+  hit?
+  elsif "h"
+  
 
 end
 end
-    
+
+  i = 0
+until i == 5
+   puts i
+   i += 1
+end  
