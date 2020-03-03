@@ -57,7 +57,6 @@ end
 #####################################################
 
 def runner
-  t += ttl
 welcome 
 initial_round
 hit?
