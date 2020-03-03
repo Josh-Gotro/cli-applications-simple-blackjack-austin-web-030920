@@ -63,7 +63,7 @@ hit?(ttl)
   display_card_total(ttl)
   if ttl <= 21
   ttl = hit?(ttl)
-  
+  display_card_total(ttl)
   # else 
   # end_game(ttl)
   end
