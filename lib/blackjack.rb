@@ -57,7 +57,7 @@ end
 #####################################################
 
 def runner
- welcome 
+welcome 
 ttl = initial_round
 hit?(ttl)
   display_card_total(ttl)
