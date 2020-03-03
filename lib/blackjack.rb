@@ -60,16 +60,10 @@ def runner
 welcome 
 ttl = initial_round
 hit?(ttl)
-until ttl > 21
-ttl = hit?(ttl)
-
-  
-
-# end
+  until ttl > 21
+  ttl = hit?(ttl)
+  display_card_total
+  end
+end_game
 end
 
-#   i = 0
-# until i == 5
-#   puts i
-#   i += 1
-# end  
