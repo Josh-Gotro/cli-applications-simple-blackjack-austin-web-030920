@@ -60,13 +60,10 @@ def runner
 welcome 
 ttl = initial_round
 hit?(ttl)
-
   if ttl <= 21
   ttl = hit?(ttl)
-
 end 
-return end_game(ttl)
-  
+ end_game(ttl)
 end
 
 # def runner
