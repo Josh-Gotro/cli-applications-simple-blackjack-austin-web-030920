@@ -58,7 +58,7 @@ end
 
 def runner
 welcome 
-# ttl = initial_round
+ttl = initial_round
 # hit?(ttl)
 #   display_card_total(ttl)
 #   if ttl <= 21
