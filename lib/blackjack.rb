@@ -60,8 +60,9 @@ def runner
  welcome 
 ttl = initial_round
 hit?(ttl)
+
   if ttl <= 21
-  display_card_total(ttl)
+
   ttl = hit?(ttl)
   # else 
   # end_game(ttl)
