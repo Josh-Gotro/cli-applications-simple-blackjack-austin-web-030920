@@ -61,9 +61,9 @@ welcome
 initial_round
 hit?
 get_user_input
-if "s"
-  hit?
-  elsif "h"
+# if "s"
+#   hit?
+#   elsif "h"
   binding.pry
 
 end
