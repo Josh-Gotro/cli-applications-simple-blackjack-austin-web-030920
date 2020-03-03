@@ -58,12 +58,10 @@ end
 
 def runner
 welcome 
-initial_round
-hit?
+ttl = initial_round
+hit?(ttl)
 get_user_input
-# if "s"
-#   hit?
-#   elsif "h"
+
   binding.pry
 
 # end
