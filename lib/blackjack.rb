@@ -60,7 +60,7 @@ def runner(ttl)
   t += ttl
 welcome 
 initial_round
-hit?(t)
+hit?
 get_user_input
 if "s"
   hit?
